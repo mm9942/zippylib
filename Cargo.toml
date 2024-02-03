@@ -1,0 +1,18 @@
+[package]
+name = "zippylib"
+version = "0.1.0"
+edition = "2021"
+description = "ZippyLib is a versatile Rust library designed for integrating file compression and decompression functionalities into Rust projects."
+repository = "https://github.com/mm9942/zippylib"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bzip2 = { version = "0.4.4", features = ["static"] }
+clap = "4.4.18"
+flate2 = "1.0.28"
+tar = "0.4.40"
+tempfile = "3.9.0"
+xz2 = { version = "0.1.7", features = ["static"] }
+zip = { version = "0.6.6", features = ["flate2", "deflate-zlib"] }
