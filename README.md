@@ -1,6 +1,6 @@
 # ZippyLib
 
-ZippyLib is a versatile Rust library designed for integrating file compression and decompression functionalities into Rust projects, supporting a wide array of formats: ZIP, TAR, TAR.GZ, TAR.XZ, TAR.BZ2, BZ2, XZ, GZ, Deflate, and Zlib. This guide provides straightforward API usage instructions to facilitate the inclusion of file compression and decompression capabilities.
+ZippyLib is a versatile Rust library designed for integrating file compression functionalities into Rust projects, supporting a wide array of formats: ZIP, TAR, TAR.GZ, TAR.XZ, TAR.BZ2, BZ2, XZ, GZ, Deflate, and Zlib. This guide provides straightforward API usage instructions to facilitate the inclusion of file compression capabilities (decompression will follow soon).
 
 ## Installation
 
